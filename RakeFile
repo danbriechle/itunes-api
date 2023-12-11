@@ -8,9 +8,9 @@ RuboCop::RakeTask.new(:lint) do |task|
 end
 
 task :run do
-  ruby 'app/response.rb'
+  ruby 'app/itunes_music_api.rb'
 end
 
 task :test do
-  ruby 'test/response_test.rb'
+  ruby 'test/itunes_music_api_test.rb'
 end
